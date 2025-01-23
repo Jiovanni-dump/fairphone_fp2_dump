@@ -1,0 +1,4 @@
+service hiccupd /system/bin/hiccupd
+  class core
+  user root
+  group system cache log
